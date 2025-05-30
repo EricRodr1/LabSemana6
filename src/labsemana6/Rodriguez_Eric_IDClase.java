@@ -37,7 +37,7 @@ public class Rodriguez_Eric_IDClase extends JFrame {
         panelMenu.add(btnCambiar);
         add(panelMenu, "menu");
 
-        // Panel Juego
+        // Panel para juga 
         panelJuego = new JPanel(new BorderLayout());
         textoJuego = new JTextArea();
         textoJuego.setEditable(false);
@@ -53,7 +53,7 @@ public class Rodriguez_Eric_IDClase extends JFrame {
         panelJuego.add(mensaje, BorderLayout.NORTH);
         add(panelJuego, "juego");
 
-        // Panel Cambiar
+        // Panel para cambiar la palabra
         panelCambiar = new JPanel(new BorderLayout());
         textoPalabras = new JTextArea();
         textoPalabras.setEditable(false);
